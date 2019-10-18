@@ -11,16 +11,14 @@ li {
 	list-style: none;
 }
 
-}
-
 body {
 	font-family: 'Open Sans', sans-serif;
 }
 
 header {
+	display: flex;
 	background-color: black;
 	width: 100%;
-	display: flex;
 }
 
 .headerLogo {
@@ -32,4 +30,78 @@ header {
 
 	margin-top: 56px;
 	margin-left: 12%;
+}
+
+nav {
+	margin-top: 56px;
+	margin-left: 29%;
+}
+
+.topNav a {
+	color: white;
+	text-align: center;
+	padding: 12px 16px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.topNav a:hover {
+	border-bottom: 3px solid #fcac45;
+}
+
+.topNav .icon {
+	display: none;
+}
+
+@media screen and (max-width: 1200px){
+	nav {
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 1105px){
+	nav {
+		margin-left: 10%;
+	}
+}
+
+@media screen and (max-width: 1010px){
+		.topNav a {
+			display: none;
+		}
+
+		.topNav a.icon {
+			float: right;
+			margin-top: -17px;
+			display: block;
+			color: white;
+			font-size: 25px;
+		}
+
+		nav {
+			width: 100%;
+		}
+		
+		.topNav.responsive {
+			position: relative;
+			top: 50px;
+			left: -200px;
+		}
+
+		header .topNav.responsive {
+			height: 340px;
+		}
+
+		.topNav.responsive a.icon {
+			position: absolute;
+			top: -50px;
+			right: -200px;
+		}
+
+		.topNav.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		}
+	}
 }
