@@ -53,6 +53,35 @@ nav {
 	display: none;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+main .mainWelcome {
+	background: black;
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 410px;
+}
+
+main .mainWelcome h1 {
+	color: #999999;
+	font-size: 44px;
+	text-transform: uppercase;
+}
+
+main .mainWelcome p {
+	color: #999999;
+	font-size: 20px;
+}
+
+main .myCompany {
+	color: #fcac45;
+}
+
+
 @media screen and (max-width: 1200px){
 	nav {
 		margin-left: 20%;
