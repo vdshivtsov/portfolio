@@ -145,7 +145,7 @@ main .myCompany {
 	font-weight: 100;
 }
 
-.line {
+.mainTeam .line {
 	width: 100px;
 	height: 3px;
 	background: #fcac45;
@@ -188,7 +188,54 @@ main .myCompany {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	text-align: center;
 }
+
+
+.mainServices h2 {
+	text-transform: uppercase;
+	margin: 100px 0 31px 0;
+	font-size: 44px;
+	font-weight: 100;
+
+}
+
+.mainServices .line {
+	width: 100px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	margin-bottom: 55px;
+}
+
+.mainServices p {
+	font-size: 16px;
+	font-color: #6c6c6c;
+}
+
+.servicesCards {
+	text-align: center;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	margin: 100px auto 100px auto;
+	grid-column-gap: 20px;
+}
+
+.servicesCard h4 {
+	text-transform: uppercase;
+	font-size: 25px;
+	margin: 30px 0 20px 0;
+}
+
+.servicesCard p {
+	font-size: 14pt;
+	font-color: #595959;
+}
+
+
+
+
+
 
 @media screen and (max-width: 1200px){
 	nav {
@@ -295,6 +342,14 @@ main .myCompany {
 
 		.line {
 			margin-bottom: 50px;
+		}
+
+		.servicesCards {
+			grid-template-columns: auto;
+		}
+
+		.servicesCard {
+			margin-bottom: 60px;
 		}
 	}
 }
