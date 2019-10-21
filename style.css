@@ -150,7 +150,6 @@ main .myCompany {
 	height: 3px;
 	background: #fcac45;
 	position: relative;
-	margin-bottom: 107px;
 }
 
 .photo {
@@ -164,6 +163,7 @@ main .myCompany {
 .teamCards {
 	display: flex;
 	flex-direction: row;
+	margin-top: 107px;
 }
 
 .card {
@@ -203,6 +203,7 @@ main .myCompany {
 .mainServices p {
 	font-size: 16px;
 	font-color: #6c6c6c;
+	margin-top: 57px;
 }
 
 .servicesCards {
@@ -239,6 +240,7 @@ main .myCompany {
 
 .clients {
 	margin-bottom: 210px;
+	margin-top: 110px;
 	text-align: center;
 }
 
@@ -265,6 +267,7 @@ main .myCompany {
 .mainTestimonials p {
 	color: white;
 	text-transform: uppercase;
+	margin-top: 115px;
 }
 
 .mainTestimonials p:last-child {
@@ -287,6 +290,7 @@ main .myCompany {
 
 .mainWork p {
 	margin-bottom: 175px;
+	margin-top: 57px;
 	color: #6c6c6c;
 }
 
@@ -294,6 +298,69 @@ main .myCompany {
 	opacity: 0.9;
 }
 
+.contactWrapper {
+	width: 753px;
+	margin: 0 auto;
+	color: #636363;
+	/*text-align: center;	*/
+}
+
+.contactForm {
+	padding: 100px 0 100px 0;
+}
+
+input {
+	width: 360px;
+	height: 40px;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+
+input, textarea {
+	border: 1px solid #999999;
+}
+
+input:first-of-type {
+	margin-right: 23px;
+}
+
+.contactForm h2 {
+	margin-bottom: 30px;
+	font-size: 44px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.red {
+	color: red;
+}
+
+.formInputs {
+	display: flex;
+}
+
+textarea {
+	width: 100%;
+	height: 163px;
+}
+
+.contactForm .lineWrapper p {
+	margin: 57px 0 100px 0;
+}
+
+.buttonBlock {
+	display: flex;
+	justify-content: flex-end;
+}
+
+input[type=submit] {
+	width: 165px;
+	height: 40px;
+	background: #fcac45;
+	color: white;
+	margin-right: 0;
+	margin-top: 20px;
+}
 
 @media screen and (max-width: 1200px){
 	nav {
