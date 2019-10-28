@@ -1,0 +1,28 @@
+@import 'fonts.css';
+
+* {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+
+}
+
+.header__menu {
+	display: flex;
+	color: #212121;
+}
+
+.header__menu__item {
+	display: block;
+	margin-left: 33px;
+}
+
+.header__menu__item a {
+	display: block;
+	color: #212121;
+	font-family: 'Open Sans Semibold';
+	font-size: 20px;
+}
