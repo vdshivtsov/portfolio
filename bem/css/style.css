@@ -1,6 +1,7 @@
 @import 'fonts.css';
 
 body {
+	font-family: 'Open Sans Semibold';
 	background: gray;
 }
 
@@ -10,6 +11,7 @@ ul, li {
 	padding: 0;
 }
 
+/*Header CSS rules*/
 .header {
 	padding: 20px 0;
 	background: white;
@@ -25,11 +27,76 @@ ul, li {
 
 .header__menu__item a {
 	color: #212121;
-	font-family: 'Open Sans Semibold';
 	font-size: 20px;
 }
 
 .header__menu__item a:hover {
 	text-decoration: none;
 	color: #868686;
+}
+
+.content-block {
+	padding: 125px 0px;
+}
+
+/*Cap CSS rules*/
+.cap > div {
+	background: url(../img/cap.png);
+	background-size: cover;
+	background-position: 0 100%;
+	padding: 180px 0;
+	color: white;
+}
+
+.cap__header {
+	font-size: 55px;
+}
+
+.cap__description {
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+
+.button {
+	transition: 0.3s;
+	padding: 10px 25px;
+	margin-left: 25px;
+	color: white;
+}
+
+.button_full {
+	background: #00897b;
+	border: 2px solid #00897b;
+}
+
+.button_empty {
+	background: transparent;
+	border: 2px solid white;
+}
+
+.button_empty:hover,
+.button_full:hover {
+	border: 2px dotted white;
+	background: #006f65;
+}
+
+/*About us CSS rules*/
+.about-us__title {
+	margin-bottom: 30px;
+}
+
+.about-us__text {
+	margin-bottom: 125px;
+}
+
+.about-us__item__image {
+	margin-bottom: 40px;
+}
+
+.about-us__item__title {
+	margin-bottom: 30px;
+}
+
+.about-us__item {
+	text-align: center;
 }

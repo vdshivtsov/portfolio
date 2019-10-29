@@ -17,6 +17,7 @@
     <title>Сайт на Bootstrap 4 и БЭМ</title>
   </head>
   <body>
+    <!-- Header block -->
   	<header class="header">
   		<div class="container">
   			<div class="row">
@@ -39,8 +40,47 @@
   			</div>
   		</div>
   	</header>
-    
-
+    <!-- Cap block -->
+    <header class="cap">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12 text-center">
+            <h1 class="cap__header">Web development project</h1>
+            <p class="cap__description">Very suitable to support all web development projects</p>
+            <button class="button button_empty">OUR SERVICES</button>
+            <button class="button button_full">HIRE IS NOW</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- About us block -->
+    <section class="content-block about-us">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-xl-12">
+            <h2 class="about-us__title">About Us</h2>
+            <p class="about-us__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ab reiciendis sint ea nam enim. Perspiciatis iusto, animi voluptatibus. Unde blanditiis nobis nisi atque at pariatur provident consequatur voluptatum adipisci.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="about-us__item col-xl-4">
+            <img class="about-us__item__image" src="img/about-us-1.png" alt="Awesome Icons">
+            <h3 class="about-us__item__title">Awesome Icons</h3>
+            <p class="about-us__item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ab reiciendis sint.</p>
+          </div>
+          <div class="about-us__item col-xl-4">
+            <img class="about-us__item__image" src="img/about-us-2.png" alt="One Page">
+            <h3 class="about-us__item__title">One Page</h3>
+            <p class="about-us__item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ab reiciendis sint.</p>
+          </div>
+          <div class="about-us__item col-xl-4">
+            <img class="about-us__item__image" src="img/about-us-3.png" alt="Fully Responsive">
+            <h3 class="about-us__item__title">Fully Responsive</h3>
+            <p class="about-us__item__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum ab reiciendis sint.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -50,6 +90,6 @@
 	<!-- Fontawesome icons -->
     <script src="https://kit.fontawesome.com/462f6c9421.js" crossorigin="anonymous"></script>
     <!-- LiveReload plugin java script -->
-    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    
   </body>
 </html>
