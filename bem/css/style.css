@@ -119,3 +119,22 @@ ul, li {
 .about-us__item {
 	text-align: center;
 }
+
+/*Our services*/
+.services {	
+
+}
+
+.services > div {
+	background: #e4fdf9;
+}
+
+.services__card {
+	background: white;
+	padding: 60px 50px 50px;
+}
+
+.services__card__icon {
+	font-size: 60px;
+	color: black;
+}
