@@ -1,7 +1,8 @@
 @import 'fonts.css';
 
 body {
-	font-family: 'Open Sans Semibold';
+	font-family: 'Open Sans';
+	color: #212121;
 	background: gray;
 }
 
@@ -11,14 +12,18 @@ ul, li {
 	padding: 0;
 }
 
+/*Style for content blocks*/
+.container_padding-y125 {
+	padding: 125px 0px;
+}
+
 /*Header CSS rules*/
-.header {
-	padding: 20px 0;
+.header > div {
 	background: white;
+	padding: 20px 0;
 }
 
 .header__menu {
-	color: #212121;
 }
 
 .header__menu__item {
@@ -26,17 +31,14 @@ ul, li {
 }
 
 .header__menu__item a {
-	color: #212121;
 	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+	color: #212121;
 }
 
 .header__menu__item a:hover {
 	text-decoration: none;
 	color: #868686;
-}
-
-.content-block {
-	padding: 125px 0px;
 }
 
 /*Cap CSS rules*/
@@ -81,12 +83,22 @@ ul, li {
 }
 
 /*About us CSS rules*/
+.about-us {
+}
+
+.about-us > div {
+	background: white;
+}
+
 .about-us__title {
 	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 .about-us__text {
 	margin-bottom: 125px;
+	font-size: 15px;
 }
 
 .about-us__item__image {
@@ -95,6 +107,13 @@ ul, li {
 
 .about-us__item__title {
 	margin-bottom: 30px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Open Sans Semibold';
+}
+
+.about-us__item__text {
+	font-size: 15px;
 }
 
 .about-us__item {
