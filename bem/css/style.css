@@ -142,6 +142,7 @@ ul, li {
 .services__card:hover {
 	background: #00897b;
 	color: white;
+	box-shadow: 0px 10px 12px -3px rgba(0, 0, 0, 0.26);
 }
 
 .services__card__icon {
