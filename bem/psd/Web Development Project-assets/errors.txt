@@ -1,2 +1,2 @@
-[2019-10-31 08:40:49] layer "+8801743331996 +8801928737807": Expected Either a default asset specification or a layer asset specification but "+" found.
-[2019-10-31 08:40:50] layer "quickmasud@gmail.com quickmasud@yahoo.com": Unsupported extension: com
+[2019-10-31 12:01:56] layer "+8801743331996 +8801928737807": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2019-10-31 12:01:56] layer "quickmasud@gmail.com quickmasud@yahoo.com": Unsupported extension: com
