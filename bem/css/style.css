@@ -17,6 +17,15 @@ ul, li {
 	padding: 125px 0px;
 }
 
+.block-title {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.block-text {
+	font-size: 15px;
+}
+
 /*Header CSS rules*/
 .header > div {
 	background: white;
@@ -64,22 +73,13 @@ ul, li {
 	padding: 10px 25px;
 	margin-left: 25px;
 	color: white;
-}
-
-.button_full {
-	background: #00897b;
-	border: 2px solid #00897b;
-}
-
-.button_empty {
 	background: transparent;
 	border: 2px solid white;
 }
 
-.button_empty:hover,
-.button_full:hover {
-	border: 2px dotted white;
-	background: #006f65;
+.button:hover {
+	background: #00897b;
+	border: 2px solid #00897b;
 }
 
 /*About us CSS rules*/
@@ -92,8 +92,6 @@ ul, li {
 
 .about-us__title {
 	margin-bottom: 30px;
-	font-size: 30px;
-	font-weight: bold;
 }
 
 .about-us__text {
@@ -108,7 +106,6 @@ ul, li {
 .about-us__item__title {
 	margin-bottom: 30px;
 	font-size: 20px;
-	font-weight: bold;
 	font-family: 'Open Sans Semibold';
 }
 
@@ -121,20 +118,61 @@ ul, li {
 }
 
 /*Our services*/
-.services {	
-
-}
-
 .services > div {
 	background: #e4fdf9;
+}
+
+.services__title {
+	padding-bottom: 40px;
+}
+
+.services__text {
+	padding-bottom: 115px;
 }
 
 .services__card {
 	background: white;
 	padding: 60px 50px 50px;
+	transition: 0.3s;
+	margin-bottom: 30px;
+}
+
+.services__card:hover {
+	background: #00897b;
+	color: white;
 }
 
 .services__card__icon {
 	font-size: 60px;
 	color: black;
+	margin-bottom: 40px;
+	transition: 0.3s;
+}
+
+.services__card:hover .services__card__icon {
+	color: white;
+}
+
+.services__card__title {
+	margin-bottom: 25px;
+	font-family: 'Open Sans Semibold';
+	font-size: 20px;
+}
+
+.services__card__text {
+	margin-bottom: 45px;
+	font-size: 15px;
+}
+
+.services__card__button {
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+	color: #212121;
+	background: transparent;
+	border: 1px solid #212121;
+}
+
+.services__card:hover .services__card__button {
+	color: white;
+	border: 1px solid white;
 }
