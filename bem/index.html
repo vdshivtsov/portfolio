@@ -149,16 +149,16 @@
             <h2 class="portfolio__title block-title">Latest Works</h2>
             <p class="portfolio__text block-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea provident enim rem non magni veritatis debitis reprehenderit inventore assumenda nemo eum repellendus, unde, aliquid quia, hic doloremque eveniet sunt distinctio!</p>
           <div class="col-xl-12">
-            <button class="button portfolio__button">ALL</button>
-            <button class="button portfolio__button">WEB DESIGN</button>
-            <button class="button portfolio__button">UI/UX DESIGN</button>
-            <button class="button portfolio__button">MOCKUPS</button>
+            <button class="button portfolio__button portfolio__button__all" isOn="true">ALL</button>
+            <button class="button portfolio__button portfolio__button__wd" isOn="false">WEB DESIGN</button>
+            <button class="button portfolio__button portfolio__button__ux" isOn="false">UI/UX DESIGN</button>
+            <button class="button portfolio__button portfolio__button__moc" isOn="false">MOCKUPS</button>
           </div>
           </div>
         </div>
         <div class="row justify-content-center mr-0">
           <div class="col-xl-4">
-            <div class="portfolio__item">
+            <div class="portfolio__item portfolio__item__ux">
               <img class="portfolio__item__image" src="img/works-1.png" alt="">
               <div class="portfolio__item__text">
                 <h3 class="block-title">Hand watch</h3>
@@ -167,7 +167,7 @@
             </div>
           </div>
           <div class="col-xl-4">
-            <div class="portfolio__item">
+            <div class="portfolio__item portfolio__item__wd">
               <img class="portfolio__item__image" src="img/works-2.png" alt="">
               <div class="portfolio__item__text">
                 <h3 class="block-title">One day pass</h3>
@@ -176,7 +176,7 @@
             </div>
           </div>
           <div class="col-xl-4">
-            <div class="portfolio__item">
+            <div class="portfolio__item portfolio__item__ux">
               <img class="portfolio__item__image" src="img/works-3.png" alt="">
               <div class="portfolio__item__text">
                 <h3 class="block-title">Frank + Oak</h3>
@@ -185,7 +185,7 @@
             </div>
           </div>
           <div class="col-xl-4">
-            <div class="portfolio__item">
+            <div class="portfolio__item portfolio__item__moc">
               <img class="portfolio__item__image" src="img/works-4.png" alt="">
               <div class="portfolio__item__text">
                 <h3 class="block-title">Just drink it</h3>
@@ -194,7 +194,7 @@
             </div>
           </div>
           <div class="col-xl-4">
-            <div class="portfolio__item">
+            <div class="portfolio__item portfolio__item__wd">
               <img class="portfolio__item__image" src="img/works-5.png" alt="">
               <div class="portfolio__item__text">
                 <h3 class="block-title">Wine life</h3>
@@ -203,7 +203,7 @@
             </div>
           </div>
           <div class="col-xl-4">
-            <div class="portfolio__item">
+            <div class="portfolio__item portfolio__item__moc">
               <img class="portfolio__item__image" src="img/works-6.png" alt="">
               <div class="portfolio__item__text">
                 <h3 class="block-title">Travel club</h3>
@@ -214,7 +214,7 @@
         </div>
         <div class="row justify-content-center text-center">
           <div class="col-xl-12">
-            <button class="button portfolio__button portfolio__button_view-all">
+            <button class="button portfolio__button portfolio__button__all" isOn="true">
               VIEW ALL
             </button>
           </div>
@@ -228,8 +228,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	<!-- Fontawesome icons -->
+    <!-- Fontawesome icons -->
     <script src="https://kit.fontawesome.com/462f6c9421.js" crossorigin="anonymous"></script>
+    <!-- my js scripts -->
+    <script src="js/script.js"></script>
     <!-- LiveReload plugin java script -->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
   </body>
