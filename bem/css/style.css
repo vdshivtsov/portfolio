@@ -3,7 +3,7 @@
 body {
 	font-family: 'Open Sans';
 	color: #212121;
-	background: gray;
+	/*background: gray;*/
 }
 
 ul, li {
@@ -236,4 +236,151 @@ ul, li {
 .portfolio__button_view-all {
 	margin-top: 100px;
 	margin-bottom: 0;
+}
+
+/*PRICE SECTION*/
+.price {
+	background-color: #f0f1f1;
+}
+
+.price__card {
+	background-color: white;
+	transition: 0.3s;
+	margin-bottom: 20px;
+}
+
+.price__card:hover {
+	box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.39);
+}
+
+.price__title {
+	margin-bottom: 25px;
+}
+
+.price__text {
+	margin-bottom: 125px;
+}
+
+.price__card__header {
+	background-image: url(../img/price-bg.png);
+	background-size: 100% 210px;
+	background-repeat: no-repeat;
+	color: white;
+	padding-bottom: 65px;
+	padding-top: 50px;
+}
+
+.price__card__header h3 {
+	font-size: 25px;
+}
+
+.price__card__header p {
+	font-size: 50px;
+}
+
+.price__card__header p sup {
+	font-size: 25px;
+	vertical-align: middle;
+}
+
+.price__card__header p sub {
+	font-size: 17px;
+	vertical-align: middle;
+}
+
+.price__card__main {
+	font-size: 17px;
+	color: #212121;
+	margin-bottom: 65px;
+}
+
+.price__card__main ul li {
+	border-bottom: 1px solid #bfbfbf;
+	width: 178px;
+	margin: 0 auto 36px auto;
+	padding-bottom: 14px;
+	font-size: 17px;
+}
+
+.price__card__footer__button {
+	margin-bottom: 63px;
+	color: #212121;
+	border: 2px solid black;
+	transition: 0.3s;
+	width: 183px;
+}
+
+.price__card__footer__button:hover {
+	color: white;
+	text-transform: uppercase;
+}
+
+/*TEAM SECTION*/
+.team {
+	background-color: white;
+}
+
+.team__title {
+	margin-bottom: 35px;
+}
+
+.team__text {
+	margin-bottom: 125px;
+}
+
+.team__photo {
+	margin-bottom: 35px;
+}
+
+.team__card__photo {
+	margin-bottom: 15px;
+}
+
+.team__card h2 {
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+}
+
+.team__card p {
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+
+.team__card__icon {
+	font-size: 50px;
+	margin-right: 25px;
+	color: #00897b;
+	background-color: #f0f1f1;
+	padding: 10px;
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.team__card__icon:last-child {
+	margin-right: 0;
+}
+
+.team__card__icon:hover {
+	color: white;
+	background-color: #3949ab;
+}
+
+.dots-style {
+   margin-top: 115px;
+   display: flex;
+   justify-content: center;
+}
+
+.dots-style button {
+   background: #00897b;
+   border: none;
+   border-radius: 50%;
+   font-size: 0;
+   height: 15px;
+   width: 15px;
+   margin: 5px;
+}
+
+.dots-style li[class="slick-active"] button {
+   background: #3949ab;
 }
