@@ -384,3 +384,33 @@ ul, li {
 .dots-style li[class="slick-active"] button {
    background: #3949ab;
 }
+
+/*BLOG*/
+.blog > div{
+	background: #e4fdf9;
+}
+
+.blog__title {
+	margin-bottom: 40px;
+}
+
+.blog__text {
+	margin-bottom: 130px;
+}
+
+.blog time {
+	font-size: 17px;
+}
+
+.blog h3 {
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.blog__content img {
+	width: 100%;
+}
+
+.blog__content article:nth-child(even) {
+	flex-direction: row-reverse;
+}
