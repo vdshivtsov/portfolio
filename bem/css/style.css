@@ -204,6 +204,11 @@ ul, li {
 	color: white;
 }
 
+.portfolio__button__view-all {
+	margin: 125px auto 0;
+	margin-bottom: 0;
+}
+
 .portfolio__item {
 	margin-bottom: 30px;
 	transition: 0.3s;
@@ -426,5 +431,74 @@ ul, li {
 }
 
 .blog__footer button {
-	margin: 125px auto;
+	margin: 125px auto 0 auto;
+}
+
+/*CONTACT*/
+.contact {
+	background-color: #272828;
+	color: white;
+}
+
+.contact header {
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.contact main {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.contact__icon {
+	display: inline-block;
+	background-color: #3949ab;
+	background-size: 200px;
+	font-size: 190px;
+	padding: 40px;
+	border-radius: 50%;
+	margin-bottom: 35px;
+}
+
+.contact main p {
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.contact main p:last-child {
+	margin-bottom: 0;
+}
+
+.contact__input {
+	max-width: 48.75%;
+	height: 85px;
+	font-size: 20px;
+}
+
+.contact__textarea {
+	font-size: 20px;
+	margin-bottom: 40px;
+	resize: none;
+}
+
+.contact__button {
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+}
+
+.contact__button, .contact__textarea, .contact__input {
+	border-radius: 15px;
+	padding: 35px 20px;
+}
+
+.footer p {
+	font-size: 20px;
+	margin: 25px auto 25px;
+	text-align: center;
+}
+
+.footer > div {
+
 }
