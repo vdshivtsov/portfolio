@@ -398,13 +398,15 @@ ul, li {
 	margin-bottom: 130px;
 }
 
-.blog time {
-	font-size: 17px;
-}
-
-.blog h3 {
+.blog__content h3 {
 	margin-top: 60px;
 	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+.blog__content h3:hover {
+	color: #00897b;
+	cursor: pointer;
 }
 
 .blog__content img {
@@ -413,4 +415,16 @@ ul, li {
 
 .blog__content article:nth-child(even) {
 	flex-direction: row-reverse;
+}
+
+.blog__content__date, .blog__content__tag {
+	font-size: 17px;
+}
+
+.blog__content__text {
+	font-size: 15px;
+}
+
+.blog__footer button {
+	margin: 125px auto;
 }
