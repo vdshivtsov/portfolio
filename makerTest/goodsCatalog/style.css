@@ -1,0 +1,90 @@
+body {
+	box-sizing: border-box;
+}
+
+.head {
+	text-align: center;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-style: italic;
+	height: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.catalog__goods {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 0;
+	grid-row-gap: 30px;
+}
+
+.catalog__cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	vertical-align: middle;
+}
+
+.catalog__cell:nth-child(3n-2)  {
+	justify-content: flex-start;
+}
+
+.catalog__cell:nth-child(3n)  {
+	justify-content: flex-end;
+}
+
+.catalog__card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 300px;
+	height: 100%;
+	border: 3px solid red;
+}
+
+.catalog__card > p {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+
+@media (max-width: 1024px) {
+	.catalog__card {
+		width: 100%;
+	}
+
+	.catalog__goods {
+		grid-template-columns: repeat(2, 1fr);
+		grid-column-gap: 30px;
+	}
+
+	.catalog__cell:nth-child(odd)  {
+		justify-content: flex-start;
+	}
+
+	.catalog__cell:nth-child(even)  {
+		justify-content: flex-end;
+	}
+}
+
+@media (max-width: 768px) {
+	.catalog__goods {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.catalog__cell:nth-child(n)  {
+		justify-content: center;
+	}
+}
