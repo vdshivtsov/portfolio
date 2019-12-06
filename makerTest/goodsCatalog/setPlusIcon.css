@@ -1,7 +1,9 @@
 li {
 	list-style: none;
+	cursor: pointer;
 }
 
-.item_display-none {
+/*по-умолчанию списки свернуты*/
+li > ul {
 	display: none;
 }
