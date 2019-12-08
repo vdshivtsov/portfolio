@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'fontin_sans_crregular';
+    src: url('2012/fonts/fontinsans_cyrillic_r_46b.eot');
+    src: url('2012/fonts/fontinsans_cyrillic_r_46b.eot?#iefix') format('embedded-opentype'),
+         url('2012/fonts/fontinsans_cyrillic_r_46b.woff') format('woff'),
+         url('2012/fonts/fontinsans_cyrillic_r_46b.ttf') format('truetype'),
+         url('2012/fonts/fontinsans_cyrillic_r_46b.svg#fontin_sans_crregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fontin_sans_crbold';
+    src: url('2012/fonts/fontinsans_cyrillic_b_46b.eot');
+    src: url('2012/fonts/fontinsans_cyrillic_b_46b.eot?#iefix') format('embedded-opentype'),
+         url('2012/fonts/fontinsans_cyrillic_b_46b.woff') format('woff'),
+         url('2012/fonts/fontinsans_cyrillic_b_46b.ttf') format('truetype'),
+         url('2012/fonts/fontinsans_cyrillic_b_46b.svg#fontin_sans_crbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fontin_sans_cr_scregular';
+    src: url('2012/fonts/fontinsans_cyrillic_sc_46b.eot');
+    src: url('2012/fonts/fontinsans_cyrillic_sc_46b.eot?#iefix') format('embedded-opentype'),
+         url('2012/fonts/fontinsans_cyrillic_sc_46b.woff') format('woff'),
+         url('2012/fonts/fontinsans_cyrillic_sc_46b.ttf') format('truetype'),
+         url('2012/fonts/fontinsans_cyrillic_sc_46b.svg#fontin_sans_cr_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
