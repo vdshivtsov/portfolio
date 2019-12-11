@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Расписание занятий-->
 <!--Задаем пространство имен для всего документа-->
-<schedule xmlns="https://vk.com/vdshivtsov">
+<schedule xmlns="https://vk.com/vdshivtsov"
+		  xmlns:a="https://www.google.com">
 	<day id="0">
 		<date>12.12.2019</date>
 		<time>0:36</time>
-		<modul>Введение в XML</modul>
+		<a:modul>Введение в XML</a:modul>
 	</day>
 	<day id="1">
 		<date>14.12.2019</date>
 		<time>10:32</time>
-		<modul>Описание структуры документа - DTD</modul>
+		<a:modul>Описание структуры документа - DTD</a:modul>
 	</day>
 	<day>
 		<date id="2">16.12.2019</date>
 		<time>21:56</time>
-		<modul>Описание структуры документа – XML схемы</modul>
+		<a:modul>Описание структуры документа – XML схемы</a:modul>
 	</day>
 	<day>
 		<date id="3">19.12.2019</date>
 		<time>14:00</time>
-		<modul>Введение в XSLT, XPath</modul>
+		<a:modul>Введение в XSLT, XPath</a:modul>
 	</day>
 	<day>
 		<date id="4">21.12.2019</date>
 		<time>12:30</time>
-		<modul>Основные элементы XSLT</modul>
+		<a:modul>Основные элементы XSLT</a:modul>
 	</day>
 	<day>
 		<date id="5">22.12.2019</date>
 		<time>15:30</time>
-		<modul>Дополнительные возможности XSLT</modul>
+		<a:modul>Дополнительные возможности XSLT</a:modul>
 	</day>
 	<day>
 		<date id="6">24.12.2019</date>
 		<time>07:45</time>
-		<modul>Практическая работа с XSLT</modul>
+		<a:modul>Практическая работа с XSLT</a:modul>
 	</day>
 	<day>
 		<date id="7">31.12.2019</date>
 		<time>23:59</time>
-		<modul>Интеграция XML данных</modul>
+		<a:modul>Интеграция XML данных</a:modul>
 	</day>
 </schedule>
