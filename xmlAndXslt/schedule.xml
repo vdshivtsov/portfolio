@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schedule>
+<!--Расписание занятий-->
+<!--Задаем пространство имен для всего документа-->
+<schedule xmlns="https://vk.com/vdshivtsov">
 	<day id="0">
 		<date>12.12.2019</date>
 		<time>0:36</time>
