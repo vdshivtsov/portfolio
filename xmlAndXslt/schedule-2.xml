@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Расписание занятий-->
+<!--Задаем пространство имен для всего документа-->
+<schedule xmlns="https://vk.com/vdshivtsov"
+		  xmlns:spec="http://www.specialist.ru/ns/courses/xml/lab1">
+	<spec:office code="ВПР">
+		<spec:name>Бизнес-центр Випр</spec:name>
+		<spec:adress>ул. Елькина, 4а, оф 301</spec:adress>
+	</spec:office>
+	<day id="0">
+		<date>12.12.2019</date>
+		<time>0:36</time>
+		<modul>Введение в XML</modul>
+	</day>
+	<day id="1">
+		<date>14.12.2019</date>
+		<time>10:32</time>
+		<modul>Описание структуры документа - DTD</modul>
+	</day>
+	<day>
+		<date id="2">16.12.2019</date>
+		<time>21:56</time>
+		<modul>Описание структуры документа – XML схемы</modul>
+	</day>
+	<day>
+		<date id="3">19.12.2019</date>
+		<time>14:00</time>
+		<modul>Введение в XSLT, XPath</modul>
+	</day>
+	<day>
+		<date id="4">21.12.2019</date>
+		<time>12:30</time>
+		<modul>Основные элементы XSLT</modul>
+	</day>
+	<day>
+		<date id="5">22.12.2019</date>
+		<time>15:30</time>
+		<modul>Дополнительные возможности XSLT</modul>
+	</day>
+	<day>
+		<date id="6">24.12.2019</date>
+		<time>07:45</time>
+		<modul>Практическая работа с XSLT</modul>
+	</day>
+	<day>
+		<date id="7">31.12.2019</date>
+		<time>23:59</time>
+		<modul>Интеграция XML данных</modul>
+	</day>
+</schedule>
