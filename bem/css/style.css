@@ -27,7 +27,7 @@ ul, li {
 }
 
 /*Header CSS rules*/
-.header > div {
+.header {
 	background: white;
 	padding: 20px 0;
 }
@@ -51,7 +51,7 @@ ul, li {
 }
 
 /*Cap CSS rules*/
-.cap > div {
+.cap {
 	background: url(../img/cap.png);
 	background-size: cover;
 	background-position: 0 100%;
@@ -85,10 +85,8 @@ ul, li {
 }
 
 /*About us CSS rules*/
-.about-us {
-}
 
-.about-us > div {
+.about-us {
 	background: white;
 }
 
@@ -120,7 +118,7 @@ ul, li {
 }
 
 /*Our services*/
-.services > div {
+.services {
 	background: #e4fdf9;
 }
 
@@ -181,7 +179,7 @@ ul, li {
 }
 
 /*Portolio*/
-.portfolio > div {
+.portfolio {
 	background: white;
 }
 
@@ -396,7 +394,7 @@ ul, li {
 }
 
 /*BLOG*/
-.blog > div{
+.blog {
 	background: #e4fdf9;
 }
 
