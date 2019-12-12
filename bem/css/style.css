@@ -194,10 +194,10 @@ ul, li {
 }
 
 .portfolio__button {
-	margin-bottom: 120px;
 	color: #212121;
 	border: 2px solid #00897b;
 	transition: 0.3s;
+	margin-bottom: 15px;
 }
 
 .portfolio__button:hover {
@@ -388,6 +388,7 @@ ul, li {
    height: 15px;
    width: 15px;
    margin: 5px;
+   padding: 0;
 }
 
 .dots-style li[class="slick-active"] button {
@@ -438,8 +439,150 @@ ul, li {
 	margin: 125px auto 0 auto;
 }
 
+/*Футер*/
+.footer {
+   padding-top: 165px;
+   padding-bottom: 125px;
+   color: #fff;
+   background-image: url(../img/footer.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: center;
+}
+
+.footer .about__text {
+   color: #fff;
+}
+
+.fa-map-marker-alt,
+.fa-phone,
+.fa-envelope {
+   font-size: 62px;
+   color: #fff;
+}
+
+.circle {
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #3949ab;
+   width: 100px;
+   height: 100px;
+   margin: 0 auto 35px;
+}
+
+.circle+p {
+   font-size: 20px;
+}
+
+.footer input,
+.footer textarea {
+   padding: 30px;
+   width: 100%;
+   border-radius: 10px;
+   border: none;
+}
+
+.footer input:focus,
+.footer textarea:focus {
+   outline: none;
+}
+
+.footer textarea {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   resize: none;
+}
+
+.footer button {
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   color: #212121;
+   padding: 20px 80px;
+   border-radius: 10px;
+   border: none;
+   transition: 0.3s
+}
+
+.footer button:hover {
+   opacity: 0.6;
+}
+
+.rules {
+   padding: 20px 0;
+   text-align: center;
+   font-weight: 600;
+}
+
+.form {
+   margin-top: 70px;
+}
+
+input,
+textarea {
+   padding: 30px;
+   width: 100%;
+   border-radius: 10px;
+   border: none;
+}
+
+input:focus,
+textarea:focus {
+   outline: none;
+}
+
+textarea {
+   margin-top: 30px;
+   margin-bottom: 30px;
+   resize: none;
+}
+
+button {
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   color: #212121;
+   padding: 20px 80px;
+   border-radius: 10px;
+   border: none;
+   transition: 0.3s
+}
+
+button:hover {
+   opacity: 0.6;
+}
+
+.rules {
+   padding: 20px 0;
+   text-align: center;
+   font-weight: 600;
+}
+
+.form {
+   margin-top: 70px;
+}
+
+
+@media screen and (max-width: 1024px) {
+   .footer input, .footer textarea {
+      margin-top: 20px;
+      margin-bottom: 20px;
+   }
+}
+@media screen and (max-width: 480px) {
+   .header, .about, .services, .portfolio, .filter, .pricing, .footer {
+      padding: 20px;
+   }
+  
+   .form {
+      margin-top: 20px;
+   }
+}
+
 /*CONTACT*/
-.contact {
+/*.contact {
 	background-color: #272828;
 	color: white;
 }
@@ -473,9 +616,11 @@ ul, li {
 
 .contact main p:last-child {
 	margin-bottom: 35px;
-}
+}*/
 
-.contact__input {
+
+
+/*.contact__input {
 	max-width: 48.75%;
 	height: 85px;
 	font-size: 20px;
@@ -501,8 +646,5 @@ ul, li {
 	font-size: 20px;
 	margin: 25px auto 25px;
 	text-align: center;
-}
+}*/
 
-.footer > div {
-
-}

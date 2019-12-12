@@ -4,11 +4,20 @@ $(document).ready( function(){
 		 	return false;
 		 } else {
 
-		 		var myRow = $('div.row').has('.portfolio__item');
+		 	 var myRow = $('div.row').has('.portfolio__item');
 
-		 		if($(this).hasClass('portfolio__button__all')) {
+		 	 if($(this).hasClass('portfolio__button__view-all')) {
 			 	$('.portfolio__button').attr('isOn', 'false');
 			 	$(this).attr('isOn', true);
+			 	$('.portfolio__button__all').attr('isOn', true);
+			 	myRow.hide(1000);
+			 	$('div.col-xl-4').has('.portfolio__item').show(1000);
+			 	myRow.show(1000);
+			 	return true;
+			 } else if($(this).hasClass('portfolio__button__all')) {
+			 	$('.portfolio__button').attr('isOn', 'false');
+			 	$(this).attr('isOn', true);
+			 	$('.portfolio__button__view-all').attr('isOn', true);
 			 	myRow.hide(1000);
 			 	$('div.col-xl-4').has('.portfolio__item').show(1000);
 			 	myRow.show(1000);
