@@ -50,10 +50,17 @@ $(document).ready( function(){
 		dotsClass: 'dots-style',
 		responsive: [
 	    {
-	      breakpoint: 1024,
+	      breakpoint: 1200,
 	      settings: {
 	        slidesToShow: 2,
 	        slidesToScroll: 2
+	      }
+	    },
+	    {
+	      breakpoint: 992,
+	      settings: {
+	        slidesToShow: 1,
+	        slidesToScroll: 1
 	      }
 	    }]
 	});

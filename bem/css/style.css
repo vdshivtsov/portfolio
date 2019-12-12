@@ -338,7 +338,11 @@ ul, li {
 }
 
 .team__card__photo {
-	margin-bottom: 15px;
+	margin: 0 auto 15px;
+}
+
+.team__card {
+	/*text-align: center;*/
 }
 
 .team__card h2 {
@@ -468,7 +472,7 @@ ul, li {
 }
 
 .contact main p:last-child {
-	margin-bottom: 0;
+	margin-bottom: 35px;
 }
 
 .contact__input {
