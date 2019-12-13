@@ -1,0 +1,10 @@
+<!ELEMENT schedule (day+, office?) >
+<!ELEMENT day (date, time, modul?) >
+<!ELEMENT office (name, adress) >
+<!ELEMENT date (#PCDATA) >
+<!ELEMENT time (#PCDATA) >
+<!ELEMENT modul (#PCDATA) >
+<!ELEMENT name (#PCDATA) >
+<!ELEMENT adress (#PCDATA) >
+<!ATTLIST day id CDATA #REQUIRED >
+<!ATTLIST schedule xmlns CDATA #IMPLIED >

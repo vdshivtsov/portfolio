@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Расписание занятий-->
 <!--Задаем пространство имен для всего документа-->
+<!DOCTYPE schedule SYSTEM "schedule-1.dtd" >
 <schedule xmlns="https://vk.com/vdshivtsov">
 	<day id="0">
 		<date>12.12.2019</date>
@@ -12,33 +13,33 @@
 		<time>10:32</time>
 		<modul>Описание структуры документа - DTD</modul>
 	</day>
-	<day>
-		<date id="2">16.12.2019</date>
+	<day id="2">
+		<date>16.12.2019</date>
 		<time>21:56</time>
 		<modul>Описание структуры документа – XML схемы</modul>
 	</day>
-	<day>
-		<date id="3">19.12.2019</date>
+	<day id="3">
+		<date>19.12.2019</date>
 		<time>14:00</time>
 		<modul>Введение в XSLT, XPath</modul>
 	</day>
-	<day>
-		<date id="4">21.12.2019</date>
+	<day id="4">
+		<date>21.12.2019</date>
 		<time>12:30</time>
 		<modul>Основные элементы XSLT</modul>
 	</day>
-	<day>
-		<date id="5">22.12.2019</date>
+	<day id="5">
+		<date>22.12.2019</date>
 		<time>15:30</time>
 		<modul>Дополнительные возможности XSLT</modul>
 	</day>
-	<day>
-		<date id="6">24.12.2019</date>
+	<day id="6">
+		<date>24.12.2019</date>
 		<time>07:45</time>
 		<modul>Практическая работа с XSLT</modul>
 	</day>
-	<day>
-		<date id="7">31.12.2019</date>
+	<day id="7">
+		<date>31.12.2019</date>
 		<time>23:59</time>
 		<modul>Интеграция XML данных</modul>
 	</day>
