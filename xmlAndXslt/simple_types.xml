@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="simple_types.xsd">
+	<age>16</age> 
+	<phone>771-1488</phone>
+	<day>Воскресенье</day>
+	<birthday>1989-09-21</birthday> 
+</simpleTypes>

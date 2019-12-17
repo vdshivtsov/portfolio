@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="tabel">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="clerk">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:group ref="tabelGroup" />
+							<xs:element type="xs:int" name="id" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="worker">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:group ref="tabelGroup" />
+							<xs:element type="xs:string" name="snils" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:group name="tabelGroup">
+		<xs:sequence>
+			<xs:element type="xs:string" name="name" />
+			<xs:element type="xs:date" name="birthday" />
+		</xs:sequence>
+	</xs:group>
+</xs:schema>

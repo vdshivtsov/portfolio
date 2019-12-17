@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="deposite">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="creditCard" type="creditCardType"/>
+				<xs:element name="sberBill" type="sberBillType"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="creditCardType">
+		<xs:sequence>
+			<xs:element name="money" type="xs:decimal" />
+			<xs:element name="procent" type="xs:decimal" />
+		</xs:sequence>
+	</xs:complexType>
+		
+	<xs:complexType name="sberBillType">
+		<xs:complexContent>
+			<xs:extension base="creditCardType">
+				<xs:sequence>
+					<xs:element name="minMoney" type="xs:decimal" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	
+</xs:schema>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:noNamespaceSchemaLocation="tabel.xsd">
+	<clerk>
+		<name>Vlad</name>
+		<birthday>1989-09-21</birthday>
+	</clerk>
+	<worker>
+		<name>Petr</name>
+		<birthday>1985-05-10</birthday>
+	</worker>
+</tabel>

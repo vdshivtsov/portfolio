@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deposite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="acct_ext.xsd">
+	<creditCard>
+		<money>5623.14</money>
+		<procent>0.1</procent>
+	</creditCard>
+	<sberBill>
+		<money>100000</money>
+		<procent>12</procent>
+		<minMoney>50000</minMoney>
+	</sberBill>
+</deposite>
